@@ -21,6 +21,7 @@ class UI{
     isbn:'24453'}, 
  ];
    
+ const book = StoredBooks;
 
    }
 }
