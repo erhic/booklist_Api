@@ -9,6 +9,23 @@ class Book{
 
 
 //UI Class >>>  a class to make up the  DOM , handlee UI tasks 
+class UI{
+   static displayBooks(){
+ const StoredBooks=[
+    {title:'Atomic Habits',
+    author:'JG Mitch',
+    isbn:'4556'},
+    
+    {title:'River Bank',
+    author:'Antol',
+    isbn:'24453'}, 
+ ];
+   
+
+   }
+}
+
+
 
 // Store Class >>> a class that will handle storage
 
