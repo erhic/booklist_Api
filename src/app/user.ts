@@ -3,5 +3,5 @@ export interface User {
   email:string;
   phoneNo:string;
   amount:number;
-  accountType:string[];
+  accountType:string;
 }
