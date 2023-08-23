@@ -11,14 +11,16 @@ import { WithdrawComponent } from './withdraw/withdraw.component';
 import { TransferComponent } from './transfer/transfer.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { AccountComponent } from './account/account.component';
+import { ProfileComponent } from './profile/profile.component';
 
 const  routes=[
-  {path:'/',component:AccountComponent},
-  {path:'',component:AccountComponent},
-  {path:'',component:AccountComponent},
-  {path:'',component:AccountComponent},
-  {path:'',component:AccountComponent},
-  {path:'',component:AccountComponent},
+  // {path: '', redirectTo: '/account', pathMatch: 'full'},
+  // {path:'',component:AccountComponent},
+  {path:'profile',component:ProfileComponent},
+  {path:'deposit',component:DepositComponent},
+  {path:'withdraw',component:WithdrawComponent},
+  {path:'transfer',component:TransferComponent},
+
 
 ]
 
@@ -32,7 +34,8 @@ const  routes=[
     WithdrawComponent,
     TransferComponent,
     SidenavComponent,
-    AccountComponent
+    AccountComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,RouterModule.forRoot(routes)
