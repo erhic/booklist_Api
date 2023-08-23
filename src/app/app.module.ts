@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { RegisterComponent } from './register/register.component';
@@ -12,6 +13,7 @@ import { TransferComponent } from './transfer/transfer.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { AccountComponent } from './account/account.component';
 import { ProfileComponent } from './profile/profile.component';
+import{AccountinfoService}from'./accountinfo.service';
 
 const  routes=[
   // {path: '', redirectTo: '/account', pathMatch: 'full'},
@@ -38,9 +40,9 @@ const  routes=[
     ProfileComponent
   ],
   imports: [
-    BrowserModule,RouterModule.forRoot(routes)
+    BrowserModule,RouterModule.forRoot(routes), HttpClientModule
   ],
-  providers: [],
+  providers: [AccountinfoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

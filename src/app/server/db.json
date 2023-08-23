@@ -1,0 +1,40 @@
+{"userinfo":[
+  
+  {  
+    "userName": "Jack",  
+    "email": "jack@gmail.com",  
+    "phoneNo": "0789789799" ,
+     "amount": 10000,
+    "accountType": "saving"
+   },  
+  {  
+    "amount": 6900, 
+     "accountType": "saving", 
+    "userName": "Peter",  
+    "email": "peter@gmail.com",  
+    "phoneNo": "0789789799"  
+  },  
+  {  
+    "amount": 6900, 
+     "accountType": "saving", 
+    "userName": "Mary",  
+    "email": "mary@gmail.com",  
+    "phoneNo": "0789789799le"  
+  },  
+  {  
+    "amount": 6900, 
+     "accountType": "saving", 
+    "userName": "Smith",  
+    "email": "smith@gmail.com",  
+    "phoneNo": "0789789799"  
+  },  
+  {  
+    
+    "userName": "John",  
+    "email": "john@gmail.com",  
+    "phoneNo": "0789789799",
+    "amount":6900,
+    "accountType": "saving"
+  }  
+] }
+ 
